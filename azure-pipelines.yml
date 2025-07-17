@@ -1,0 +1,9 @@
+# azure-pipelines.yml in your GitHub repo root
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo "CI/CD from GitHub to Azure DevOps running!"
